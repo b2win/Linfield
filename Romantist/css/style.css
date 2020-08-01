@@ -245,3 +245,40 @@ h2 {
     color: #00897b;
     font-weight: bold;
 }
+
+/* ------------- QNA ---------------- */
+#table {
+    margin: 5vw 0 0 10vw;
+    width: 60vw;
+    border: gray 1px solid;
+    border-radius: 10px;
+    padding: 3vw 3vw 3vw 6vw;
+}
+.bulletin tr td {
+    padding: 10px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+hr {
+    width: 51vw;
+}
+.group {
+    width: 4vw;
+}
+.title {
+    width: 20vw;
+}
+.nickname {
+    width: 10vw;
+}
+.date {
+    width: 10vw;
+}
+.view {
+    width: 5vw;
+}
+.like {
+    width: 5vw;
+}
