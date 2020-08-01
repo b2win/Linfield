@@ -14,7 +14,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: green;
+    color: cornsilk;
     font-size: larger;
     display: inline-block;
 }
@@ -22,7 +22,8 @@ p {
     max-width: 200px;
     max-height: 200px;
     display: inline-block;
-    background-color: #f7f5f5;
+    background-color: #094d52;
+    opacity: 0.95;
 }
 img {
     max-width: 100%;
