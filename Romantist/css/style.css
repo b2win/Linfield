@@ -5,8 +5,10 @@ html {
     font-size: 100%;
     position: relative;
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
-    max-width: 1500px;
+    max-width: 1600px;
 }
+/* ------------- Index ---------------- */
+
 /* --- HEADER --- */
 h1 {
     text-align: center;
@@ -45,6 +47,23 @@ li {
     float: right;
     padding: 15em 5em 0 0;
     font-size: xx-large;
-    font-family: "휴먼편지체";
+    font-family: "휴먼편지체", sans-serif;
     color: rgb(112, 111, 111);
+}
+
+/* ------------- Introducion ---------------- */
+.photo-intro {
+    background-image: url(/images/president.jpg);
+    min-width: 600px;
+    height: 50vh;
+    margin: 6vw 1vw 0 12vw;
+    display: inline;
+}
+.president {
+    float: right;
+    width: 37vw;
+    margin: 6vw 0 0 0;
+    padding: 2em;
+    font-family: "휴먼편지체", sans-serif;
+    font-size: 1.6em;
 }
