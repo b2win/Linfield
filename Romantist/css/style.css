@@ -5,7 +5,7 @@ html {
     font-size: 100%;
     position: relative;
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
-    max-width: 1600px;
+    max-width: 1500px;
 }
 /* ------------- Index ---------------- */
 
@@ -36,6 +36,7 @@ li {
     background-image: url(/images/intro-bg.jpg);
     margin-left: 5em;
     height: 800px;
+    border-radius: 10px;
 }
 .top {
     padding: 3em 0 0 3em;
@@ -52,18 +53,92 @@ li {
 }
 
 /* ------------- Introducion ---------------- */
+.intro {
+    display: inline-block;
+}
 .photo-intro {
-    background-image: url(/images/president.jpg);
     min-width: 600px;
     height: 50vh;
-    margin: 6vw 1vw 0 12vw;
+    margin: 6vw 1vw 0 10vw;
     display: inline;
+    border-radius: 10px;
 }
 .president {
     float: right;
-    width: 37vw;
-    margin: 6vw 0 0 0;
-    padding: 2em;
+    width: 30vw;
+    min-width: 600px;
+    margin: 5vw 0 0 0;
+    padding: 1em;
     font-family: "휴먼편지체", sans-serif;
     font-size: 1.6em;
+    border-radius: 10px;
 }
+
+/* ------------- Tutor ---------------- */
+.tutor {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 12vw 0 0 10vw;
+    max-width: 1200px;
+}
+.tutor-eto {
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.tutor-gj {
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    margin-left: 6.5em;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.tutor-moon {
+    width: 300px;
+    height: 300px;
+    background-size: 300px;
+    margin-left: 6.5em;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.tutor img:hover {
+    background-size: 500px;
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+    transition: ease 1s;
+}
+.name {
+    font-size: 1.5em;
+    font-family: "휴먼편지체", sans-serif;
+}
+.name-gj, .name-moon {
+    margin-left: 4.5em;
+    font-size: 1.5em;
+    font-family: "휴먼편지체", sans-serif;
+}
+.back {
+    margin-left: 15vw;
+    padding: 0.3em;
+    background-color: rgb(204, 201, 201);
+    display: inline;
+    border-radius: 10px;
+}
+/*--- ETO ---*/
+.eto, .gj, .moon {
+    float: right;
+    width: 30vw;
+    min-width: 600px;
+    margin: 5vw 0 0 0;
+    padding: 1em;
+    font-family: "휴먼편지체", sans-serif;
+    font-size: 1.6em;
+    border-radius: 10px;
+}
+/*--- GJ ---*/
+
+/*--- MOON ---*/
+
