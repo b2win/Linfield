@@ -127,7 +127,7 @@ li {
     display: inline;
     border-radius: 10px;
 }
-/*--- ETO ---*/
+/*--- ETO GJ MOON ---*/
 .eto, .gj, .moon {
     float: right;
     width: 30vw;
@@ -138,7 +138,110 @@ li {
     font-size: 1.6em;
     border-radius: 10px;
 }
-/*--- GJ ---*/
 
-/*--- MOON ---*/
+/* ------------- Curriculum ---------------- */
+#main {
+    width: 1200px;
+    height: 500px;
+    margin: 7vw 0 0 10vw;
+    display: inline-flex;
+}
+.info {
+    width: 600px;
+    height: 500px;
+}
+.curri-head {
+    font-size: 2em;
+    color: grey;
+}
+.option {
+    font-size: x-small;
+    color: #00897b;
+    display: inline-flex;
+    float: right;
+    font-weight: bold;
+}
+.curri-sub {
+    font-size: small;
+    color: grey;
+    display: inline-block;
+}
+.curri-list li {
+    background-color: whitesmoke;
+    width: 600px;
+    height: 50px;
+    list-style: none;
+    border: rgb(230, 229, 229) 1px solid;
+    border-radius: 3px;
+    padding-top: 12px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-flex;
+}
+.order {
+    float: right;
+    width: 600px;
+    height: 500px;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    border-left: 3px solid gainsboro;
+}
+.button {
+    float: right;
+}
+.basket {
+    background-color: lightcoral;
+    color: white;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+.buy{
+    color: #00897b;
+    border:#00897b 2px solid;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 1em;
+    font-weight: bold;
+}
+h2 {
+    font-size: 40px;
+}
+.emoticon {
+    width: 20px;
+    height: 20px;
+}
+.head-description {
+    width: 400px;
+    font-size: 1.3em;
+    padding: 0;
+    margin: 1em;
+    display: inline-block;
 
+}
+.description li {
+    width: 400px;
+    font-size: 1.2em;
+    padding: 3px 0;
+    display: inline-block;
+    margin-left: 1em;
+}
+.refund {
+    width: 400px;
+    font-size: 1em;
+    padding: 20px 0 0 0;
+    display: inline-block;
+    margin-left: 10vw;
+    color: #00897b;
+}
+.coupon {
+    width: 400px;
+    font-size: 1em;
+    padding: 20px 0 0 0;
+    display: inline-block;
+    margin-left: 12vw;
+    color: #00897b;
+    font-weight: bold;
+}
