@@ -37,6 +37,7 @@ li {
     margin-left: 5em;
     height: 800px;
     border-radius: 10px;
+    max-width: 100vw;
 }
 .top {
     padding: 3em 0 0 3em;
@@ -55,6 +56,7 @@ li {
 /* ------------- Introducion ---------------- */
 .intro {
     display: inline-block;
+    max-width: 100vw;
 }
 .photo-intro {
     min-width: 600px;
@@ -79,17 +81,17 @@ li {
     display: inline-flex;
     flex-wrap: nowrap;
     margin: 12vw 0 0 10vw;
-    max-width: 1200px;
+    max-width: 80vw;
 }
 .tutor-eto {
-    width: 300px;
+    width: 17vw;
     height: 300px;
     background-size: 300px;
     display: inline-flex;
     border-radius: 10px;
 }
 .tutor-gj {
-    width: 300px;
+    width: 17vw;
     height: 300px;
     background-size: 300px;
     margin-left: 6.5em;
@@ -97,7 +99,7 @@ li {
     border-radius: 10px;
 }
 .tutor-moon {
-    width: 300px;
+    width: 17vw;
     height: 300px;
     background-size: 300px;
     margin-left: 6.5em;
@@ -141,14 +143,15 @@ li {
 
 /* ------------- Curriculum ---------------- */
 #main {
-    width: 1200px;
-    height: 500px;
+    width: 80vw;
+    height: 70vh;
     margin: 7vw 0 0 10vw;
     display: inline-flex;
 }
 .info {
-    width: 600px;
-    height: 500px;
+    width: 40vw;
+    height: 70vh;
+    display: inline-block;
 }
 .curri-head {
     font-size: 2em;
@@ -168,7 +171,7 @@ li {
 }
 .curri-list li {
     background-color: whitesmoke;
-    width: 600px;
+    width: 30vw;
     height: 50px;
     list-style: none;
     border: rgb(230, 229, 229) 1px solid;
@@ -180,8 +183,8 @@ li {
 }
 .order {
     float: right;
-    width: 600px;
-    height: 500px;
+    width: 80vw;
+    height: 70vh;
     margin-left: 5vw;
     padding-left: 5vw;
     border-left: 3px solid gainsboro;
@@ -233,7 +236,7 @@ h2 {
     font-size: 1em;
     padding: 20px 0 0 0;
     display: inline-block;
-    margin-left: 10vw;
+    margin-left: 8vw;
     color: #00897b;
 }
 .coupon {
@@ -241,7 +244,7 @@ h2 {
     font-size: 1em;
     padding: 20px 0 0 0;
     display: inline-block;
-    margin-left: 12vw;
+    margin-left: 10vw;
     color: #00897b;
     font-weight: bold;
 }
