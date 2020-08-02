@@ -8,7 +8,7 @@ body {
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
     line-height: 1.7;
     color: #432;
-    background-image: url(/Linfield/images/windows.jpg);
+    background-image: url(../images/windows.jpg);
     height: 1000px;
     width: 1500px;
 }
