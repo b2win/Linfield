@@ -33,7 +33,7 @@ li {
 
 /*--- MAIN ---*/
 .bg {
-    background-image: url(/images/intro-bg.jpg);
+    background-image: url(../images/intro-bg.jpg);
     margin-left: 5em;
     height: 800px;
     border-radius: 10px;
