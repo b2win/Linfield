@@ -30,6 +30,9 @@ ul {
 /* PC용 CSS */
 @media all and (min-width:1132px){
 /* 기본 CSS */
+#wrap {
+    position: relative;
+}
 /* HEADER */
 header {
     text-align: center;
@@ -66,14 +69,15 @@ h1 {
     height: 45rem;
 }
 
-.top {
+.bg .top {
     font-family: "휴먼편지체", sans-serif;
     font-size: 32px;
     font-size: 2rem;
     color: #0d47a1;
     float: left;
-    padding: 80px 0 0 320px;
-    padding: 5rem 0 0 20rem;
+    padding: 80px 528px 0 320px;
+    padding: 5rem 33rem 0 20rem;
+    width: 90%;
 }
 
 .bottom {
@@ -81,9 +85,8 @@ h1 {
     font-size: 32px;
     font-size: 2rem;
     color: #0d47a1;
-    float: right;
-    padding: 560px 640px 0 0;
-    padding: 30rem 40rem 0 0;
+    padding: 560px 160px 0 320px;
+    padding: 35rem 10rem 0 20rem;
 }
 
 /* FOOTER */
@@ -94,5 +97,4 @@ footer {
     color: white;
     text-align: center;
 }
-
 }
