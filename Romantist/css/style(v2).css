@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* ----------------------------------- */
+html {
+    font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+}
+body {
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+/* 모바일용 CSS */
+/* 기본 CSS */
+
+
+
+/* 태블릿용 CSS */
+@media all and (min-width:768px){
+
+/* 기본 CSS */
+}
+
+
+/* PC용 CSS */
+@media all and (min-width:1132px){
+/* 기본 CSS */
+/* HEADER */
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bradley Hand ITC", sans-serif;
+    font-size: 60px;
+    font-size: 3.75rem;
+    font-weight: bolder;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    margin: 1rem 0;
+    padding: 16px;
+    padding: 1rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.header-list li {
+    font-family: "Bradley Hand ITC", "sans-serif";
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.bg {
+    background: url(../images/intro-bg.jpg) center center no-repeat;
+    height: 720px;
+    height: 45rem;
+}
+
+.top {
+    font-family: "휴먼편지체", sans-serif;
+    font-size: 32px;
+    font-size: 2rem;
+    color: #0d47a1;
+    float: left;
+    padding: 80px 0 0 320px;
+    padding: 5rem 0 0 20rem;
+}
+
+.bottom {
+    font-family: "휴먼편지체", sans-serif;
+    font-size: 32px;
+    font-size: 2rem;
+    color: #0d47a1;
+    float: right;
+    padding: 560px 640px 0 0;
+    padding: 30rem 40rem 0 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: #424242;
+    font-size: 16px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+}
