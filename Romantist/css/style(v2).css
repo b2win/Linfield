@@ -19,6 +19,7 @@ ul {
 /* 기본 CSS */
 #wrap {
     position: relative;
+    text-align: center;
 }
 
 /* HEADER */
@@ -79,7 +80,6 @@ h1 {
 
 /* ------------- Introducion ---------------- */
 .intro {
-    display: ;
     width: 100%;
     height: 55rem;
 }
@@ -97,6 +97,52 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* ------------- Tutor ---------------- */
+.tutor {
+    max-width: 100%;
+    height: 52rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tutor-eto, .tutor-gj, .tutor-moon {
+    width: 400px;
+    width: 25rem;
+    max-width: 100%;
+    height: 400px;
+    height: 25rem;
+    background-size: 400px;
+    background-size: 25rem;
+    border-radius: 10px;
+    transition: ease 1s;
+    -webkit-filter:grayscale(1);
+    filter:grayscale(1);
+}
+.tutor img:hover {
+    background-size: 600px;
+    background-size: 37.5rem;
+    width: 600px;
+    width: 37.5rem;
+    height: 600px;
+    height: 37.5rem;
+    transition: ease 1.5s;
+    -webkit-filter:grayscale(0);
+    filter:grayscale(0);
+}
+.name {
+    font-size: 1.5em;
+    font-family: "휴먼편지체", sans-serif;
+    text-align: center;
+}
+.back {
+    background-color: rgb(204, 201, 201);
+    border-radius: 10px;
+}
+.back:hover {
+    background-color: #5472d3;
+    border-radius: 10px;
+    transition: 1s;
+}
+
 /* FOOTER */
 footer {
     background-color: #424242;
@@ -104,7 +150,7 @@ footer {
     font-size: 1rem;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 4rem;
 }
 
 footer span {
@@ -197,6 +243,75 @@ h1 {
     padding: 1rem;
     font-family: "휴먼편지체", sans-serif;
     font-size: 1.5rem;
+}
+
+/* ------------- Tutor ---------------- */
+.tutor {
+    display: flex;
+    max-width: 100%;
+    height: 52rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tutor-eto, .tutor-gj, .tutor-moon {
+    width: 400px;
+    width: 25rem;
+    max-width: 100%;
+    height: 400px;
+    height: 25rem;
+    background-size: 400px;
+    background-size: 25rem;
+    border-radius: 10px;
+    transition: ease 1s;
+    -webkit-filter:grayscale(1);
+    filter:grayscale(1);
+}
+.tutor img:hover {
+    background-size: 600px;
+    background-size: 37.5rem;
+    width: 600px;
+    width: 37.5rem;
+    height: 600px;
+    height: 37.5rem;
+    transition: ease 1.5s;
+    -webkit-filter:grayscale(0);
+    filter:grayscale(0);
+}
+.name {
+    font-size: 1.5em;
+    font-family: "휴먼편지체", sans-serif;
+    text-align: center;
+}
+.back {
+    width: 6rem;
+    text-align: center;
+    background-color: rgb(204, 201, 201);
+    border-radius: 10px;
+}
+.back:hover {
+    background-color: #5472d3;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+/*--- ETO GJ MOON ---*/
+.photo-tutor {
+    width: 420px;
+    width: 26.25rem;
+    height: 420px;
+    height: 26.25rem;
+    border-radius: 20px;
+}
+
+.eto, .gj, .moon {
+    max-width: 420px;
+    max-width: 26.25rem;
+    height: 420px;
+    height: 26.25rem;
+    padding: 0 2rem;
+    font-family: "휴먼편지체", sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
 }
 
 /* FOOTER */
@@ -300,6 +415,76 @@ h1 {
     padding: 1rem;
     font-family: "휴먼편지체", sans-serif;
     font-size: 2rem;
+}
+
+/* ------------- Tutor ---------------- */
+.tutor {
+    display: flex;
+    width: 100%;
+    height: 52rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tutor-eto, .tutor-gj, .tutor-moon {
+    width: 400px;
+    width: 25rem;
+    height: 400px;
+    height: 25rem;
+    background-size: 400px;
+    background-size: 25rem;
+    border-radius: 10px;
+    transition: ease 1s;
+    -webkit-filter:grayscale(1);
+    filter:grayscale(1);
+}
+.tutor img:hover {
+    background-size: 600px;
+    background-size: 37.5rem;
+    width: 600px;
+    width: 37.5rem;
+    height: 600px;
+    height: 37.5rem;
+    transition: ease 1.5s;
+    -webkit-filter:grayscale(0);
+    filter:grayscale(0);
+}
+.name {
+    font-size: 1.5em;
+    font-family: "휴먼편지체", sans-serif;
+    text-align: center;
+}
+.back {
+    width: 8rem;
+    text-align: center;
+    background-color: rgb(204, 201, 201);
+    border-radius: 10px;
+}
+
+.back:hover {
+    background-color: #5472d3;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+/*--- ETO GJ MOON ---*/
+.photo-tutor {
+    width: 560px;
+    width: 35rem;
+    height: 560px;
+    height: 35rem;
+    border-radius: 20px;
+}
+
+.eto, .gj, .moon {
+    max-width: 560px;
+    max-width: 35rem;
+    height: 560px;
+    height: 35rem;
+    padding: 0 2rem;
+    font-family: "휴먼편지체", sans-serif;
+    font-size: 2rem;
+    border-radius: 10px;
 }
 
 
