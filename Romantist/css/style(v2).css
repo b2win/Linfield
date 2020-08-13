@@ -533,6 +533,8 @@ h1 {
 .info {
     width: 60%;
     order: 1;
+    margin: 16px;
+    margin: 1rem;
 }
 
 .curri-head {
@@ -576,9 +578,10 @@ h1 {
 }
 
 .order {
-    border-left: 3px solid gainsboro;
     order: 2;
     width: 40%;
+    margin: 16px;
+    margin: 1rem;
 }
 
 .basket {
