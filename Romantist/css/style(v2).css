@@ -273,6 +273,59 @@ h2 {
     font-weight: bold;
 }
 
+/* ------------- QNA ---------------- */
+#table {
+    width: 100%;
+    text-align: center;
+}
+
+.bulletin {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 48px;
+    margin: 3rem;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.bulletin tr td {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 16px;
+    margin-top: 1rem;
+}
+
+.group {
+    width: 6rem;
+}
+
+.title {
+    width: 25rem;
+}
+
+.nickname {
+    width: 7rem;
+}
+
+.date {
+    width: 7rem;
+}
+
+td:nth-child(6), .view {
+    display: none;
+}
+
+td:nth-child(5), .like {
+    display: none;
+}
+
 /* FOOTER */
 footer {
     background-color: #424242;
@@ -585,6 +638,61 @@ h2 {
     margin-left: 8rem;
     color: #00897b;
     font-weight: bold;
+}
+
+/* ------------- QNA ---------------- */
+#table {
+    width: 100%;
+    text-align: center;
+}
+
+.bulletin {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 48px;
+    margin: 3rem;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.bulletin tr td {
+    padding: 16px;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 16px;
+    margin-top: 1rem;
+}
+
+.group {
+    width: 6rem;
+}
+
+.title {
+    width: 25rem;
+}
+
+.nickname {
+    width: 7rem;
+}
+
+.date {
+    width: 7rem;
+}
+
+.view {
+    width: 3rem;
+}
+
+.like {
+    width: 3rem;
 }
 
 /* FOOTER */
@@ -907,6 +1015,61 @@ h2 {
     margin-left: 10rem;
     color: #00897b;
     font-weight: bold;
+}
+
+/* ------------- QNA ---------------- */
+#table {
+    width: 100%;
+    text-align: center;
+}
+
+.bulletin {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 48px;
+    margin: 3rem;
+    font-size: 19px;
+    font-size: 1.2rem;
+}
+
+.bulletin tr td {
+    padding: 16px;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 16px;
+    margin-top: 1rem;
+}
+
+.group {
+    width: 7rem;
+}
+
+.title {
+    width: 30rem;
+}
+
+.nickname {
+    width: 10rem;
+}
+
+.date {
+    width: 10rem;
+}
+
+.view {
+    width: 5rem;
+}
+
+.like {
+    width: 5rem;
 }
 
 /* FOOTER */
