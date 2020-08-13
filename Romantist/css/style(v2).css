@@ -487,6 +487,154 @@ h1 {
     border-radius: 10px;
 }
 
+/* ------------- Curriculum ---------------- */
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 880px;
+    height: 55rem;
+}
+.info {
+    width: 60%;
+    order: 1;
+    padding: 80px;
+    padding: 5rem;
+}
+.curri-head {
+    font-size: 48px;
+    font-size: 3rem;
+    color: grey;
+    width: 100%;
+    text-align: center;
+}
+.option {
+    font-size: x-small;
+    color: #00897b;
+    float: right;
+    font-weight: bold;
+}
+
+.option a {
+    color: #00897b;
+}
+
+.curri-sub {
+    font-size: small;
+    color: grey;
+    width: 100%;
+}
+
+.curri-list {
+    width: 100%;
+}
+
+.curri-list li {
+    background-color: whitesmoke;
+    height: 72px;
+    height: 4.5rem;
+    list-style: none;
+    border: rgb(230, 229, 229) 1px solid;
+    border-radius: 3px;
+    padding-top: 24px;
+    text-align: left;
+}
+
+.order {
+    border-left: 3px solid gainsboro;
+    order: 2;
+    padding: 80px;
+    padding: 5rem;
+    width: 40%;
+}
+
+.basket {
+    background-color: lightcoral;
+    color: white;
+    height: 50px;
+    height: 3.125rem;
+    width: 70%;
+    min-width: 320px;
+    min-width: 20rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buy{
+    color: #00897b;
+    border:#00897b 2px solid;
+    height: 50px;
+    height: 3.125rem;
+    width: 70%;
+    min-width: 320px;
+    min-width: 20rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-size: 2.5rem;
+}
+
+.emoticon {
+    width: 20px;
+    width: 1.25rem;
+    height: 20px;
+    height: 1.25rem;
+}
+
+.head-description {
+    width: 400px;
+    min-width: 25rem;
+    font-size: 21px;
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 32px 16px;
+    margin: 2rem 1rem;
+    font-weight: bold;
+}
+
+.description li {
+    width: 400px;
+    width: 25rem;
+    font-size: 19px;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    margin-left: 32px;
+    margin-left: 2rem;
+}
+
+.refund {
+    width: 400px;
+    width: 25rem;
+    font-size: 19px;
+    font-size: 1.2rem;
+    padding: 20px 0;
+    padding: 1.25rem 0;
+    margin-left: 128px;
+    margin-left: 8rem;
+}
+
+.coupon {
+    width: 400px;
+    width: 25%;
+    font-size: 19px;
+    font-size: 1.2rem;
+    padding: 20px 0 0 0;
+    padding: 1.25rem 0 0 0;
+    margin-left: 160px;
+    margin-left: 10rem;
+    color: #00897b;
+    font-weight: bold;
+}
 
 /* FOOTER */
 footer {
