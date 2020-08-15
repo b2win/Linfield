@@ -344,6 +344,10 @@ td:nth-child(5), .like {
     display: none;
 }
 
+td:nth-child(1), .group {
+    display: none;
+}
+
 /* FOOTER */
 footer {
     background-color: #424242;
