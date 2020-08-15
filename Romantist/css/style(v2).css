@@ -19,6 +19,7 @@ ul {
 #wrap {
     position: relative;
     text-align: center;
+    height: 100%;
 }
 
 /* HEADER */
@@ -82,7 +83,7 @@ h1 {
 /* ------------- Introducion ---------------- */
 .intro {
     width: 100%;
-    height: 60rem;
+    height: 100%;
 }
 
 .photo-intro {
@@ -92,7 +93,7 @@ h1 {
 
 .president {
     max-width: 100%;
-    height: 10rem;
+    height: 100%;
     padding: 1rem;
     font-family: "휴먼편지체", sans-serif;
     font-size: 1.5rem;
@@ -108,29 +109,17 @@ h1 {
 }
 
 .tutor-eto, .tutor-gj, .tutor-moon {
-    width: 400px;
-    width: 25rem;
+    width: 320px;
+    width: 20rem;
     max-width: 100%;
-    height: 400px;
-    height: 25rem;
-    background-size: 400px;
-    background-size: 25rem;
+    height: 320px;
+    height: 20rem;
+    background-size: 320px;
+    background-size: 20em;
     border-radius: 10px;
-    transition: ease 1s;
-    -webkit-filter:grayscale(1);
-    filter:grayscale(1);
 }
-
-.tutor img:hover {
-    background-size: 600px;
-    background-size: 37.5rem;
-    width: 600px;
-    width: 37.5rem;
-    height: 600px;
-    height: 37.5rem;
-    transition: ease 1.5s;
-    -webkit-filter:grayscale(0);
-    filter:grayscale(0);
+.intro p {
+    width: 100%;
 }
 
 .name {
@@ -138,23 +127,26 @@ h1 {
     font-family: "휴먼편지체", sans-serif;
     text-align: center;
 }
+.eto, .gj, .moon {
+    text-align: start;
+    padding: 2.5rem;
+}
 
 .back {
     background-color: rgb(204, 201, 201);
+    height: 3rem;
+    width: 100%;
+    padding: 1rem;
+    display: block;
     border-radius: 10px;
-}
-
-.back:hover {
-    background-color: #5472d3;
-    border-radius: 10px;
-    transition: 1s;
+    text-align: center;
 }
 
 .photo-tutor {
-    width: 400px;
-    width: 25rem;
-    height: 400px;
-    height: 25rem;
+    width: 320px;
+    width: 20rem;
+    height: 320px;
+    height: 20rem;
     border-radius: 20px;
 }
 
@@ -167,7 +159,7 @@ h1 {
     min-width: 300px;
     min-width: 18.75rem;
     height: 880px;
-    height: 55rem;
+    height: 100%;
 }
 
 .info {
@@ -176,8 +168,8 @@ h1 {
 }
 
 .curri-head {
-    font-size: 48px;
-    font-size: 3rem;
+    font-size: 32px;
+    font-size: 2rem;
     color: grey;
     width: 100%;
     text-align: center;
@@ -202,17 +194,18 @@ h1 {
 
 .curri-list {
     width: 100%;
+    justify-content: center;
 }
 
 .curri-list li {
     background-color: whitesmoke;
-    height: 72px;
-    height: 4.5rem;
+    height: 32px;
+    height: 2rem;
     list-style: none;
     border: rgb(230, 229, 229) 1px solid;
     border-radius: 3px;
-    padding-top: 24px;
     text-align: left;
+    justify-content: center;
 }
 
 .order {
@@ -271,10 +264,16 @@ h2 {
     font-weight: bold;
 }
 
+.description {
+    text-align: center;
+}
+
 .description li {
-    font-size: 19px;
-    font-size: 1.2rem;
-    padding: 5px 0;
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    padding: 4.8px 0 0 80px;
+    padding: 0.3rem 0 0 5rem;
+    text-align: start;
 }
 
 .refund {
@@ -289,6 +288,7 @@ h2 {
     font-size: 1.2rem;
     color: #00897b;
     font-weight: bold;
+    padding: 0.5rem;
 }
 
 /* ------------- QNA ---------------- */
@@ -355,7 +355,8 @@ footer {
     font-size: 1rem;
     color: white;
     text-align: center;
-    height: 4rem;
+    height: 100%;
+    display: block;
 }
 
 footer span {
