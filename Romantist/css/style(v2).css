@@ -67,7 +67,9 @@ h1 {
     color: #0d47a1;
     float: left;
     margin-top: 1rem;
+    padding: 0 7rem 0 1rem;
     font-weight: bold;
+    text-align: start;
 }
 
 .bottom {
@@ -75,9 +77,10 @@ h1 {
     font-size: 24px;
     font-size: 1.5rem;
     color: #0d47a1;
-    padding: 400px 16px 0 64px;
-    padding: 25rem 1rem 0 4rem;
+    padding: 368px 16px 0 80px;
+    padding: 23rem 1rem 0 5rem;
     font-weight: bold;
+    text-align: start;
 }
 
 /* ------------- Introducion ---------------- */
@@ -735,6 +738,7 @@ footer {
     font-size: 16px;
     font-size: 1rem;
     color: white;
+    width: 100%;
     text-align: center;
 }
 
