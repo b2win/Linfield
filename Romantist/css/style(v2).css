@@ -13,6 +13,7 @@ a {
 ul {
     list-style: none;
 }
+
 /* 모바일용 CSS */
 @media all and (max-width:767px){
 /* 기본 CSS */

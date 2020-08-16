@@ -1,38 +1,59 @@
 @charset "utf-8";
 
 /* ------ ---------------------------*/
-html {
-    font-size: 100%;
-}
 body {
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
-    line-height: 1.7;
     color: #432;
-    background-image: url(../images/windows.jpg);
-    height: 1000px;
-    width: 1500px;
 }
+
+#wrap {
+    height: 1500px;
+    max-width: 100%;
+    position: relative;
+}
+
+img {
+    display: inline-flex;
+    width: 100%;
+    position: absolute;
+}
+
+h1 {
+    color: rgb(39, 38, 38);
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    background-color: #094d52;
+    opacity: 0.95;
+    position: relative;
+    text-align: start;
+    display: flex;
+}
+
 a {
     text-decoration: none;
     color: cornsilk;
     font-size: larger;
-    display: inline-block;
+    position: relative;
 }
+
+.window {
+    position: relative;
+}
+
+
 p {
     max-width: 200px;
     max-height: 200px;
-    display: inline-block;
     background-color: #094d52;
     opacity: 0.95;
+    display: inline-block;
+    position: relative;
 }
-img {
-    max-width: 100%;
-}
-h1 {
-    color: rgb(39, 38, 38);
-    margin-left: 25em;
-    font-size: 35px;
-}
+
 a:hover {
     background-color: cornflowerblue;
     opacity: 0.7;
