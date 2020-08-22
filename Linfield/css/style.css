@@ -1,13 +1,84 @@
 @charset "utf-8";
-
-/* ------ ---------------------------*/
+/* --------------------------------*/
 body {
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
     color: #432;
 }
 
+
+/* 모바일용 CSS */
+@media all and (max-width:767px){
 #wrap {
-    height: 1500px;
+    display: inline-flex;
+}
+
+.small {
+    width: 100%;
+}
+
+.big {
+    display: none;
+}
+
+h1 {
+    color: rgb(39, 38, 38);
+    text-align: center;
+    position: absolute;
+    font-size: 7vw;
+    margin: 0 0 0 20vw;
+}
+
+a {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: larger;
+    position: absolute;
+    display: inline;
+}
+
+.window {
+    position: relative;
+}
+
+p {
+    background-color: #094d52;
+    opacity: 0.95;
+    position: absolute;
+    font-size: 5vw;
+    text-align: center;
+    display: inline;
+}
+
+a:hover {
+    background-color: rgba(151, 178, 228, 0.904);
+    opacity: 0.7;
+}
+.window1 {
+    display: inline;
+    margin: 17vw 0 0 12vw;
+}
+.window2 {
+    margin: 13vw 0 0 60vw;
+}
+.window3 {
+    display: none;
+}
+}
+
+/* --------------------------------*/
+/* 태블릿용 CSS */
+@media all and (min-width:768px){
+    .small {
+        display: none;
+    }
+
+}
+/* --------------------------------*/
+/* PC용 CSS */
+@media all and (min-width:1024px){
+
+#wrap {
+    height: 100%;
     max-width: 100%;
     position: relative;
 }
@@ -16,6 +87,10 @@ img {
     display: inline-flex;
     width: 100%;
     position: absolute;
+}
+
+.small {
+    display: none;
 }
 
 h1 {
@@ -71,4 +146,4 @@ a:hover {
     margin-left: 21.5%;
     padding: 3vw 0rem;
 }
-
+}
