@@ -5,8 +5,11 @@ html {
   font-size: 100%;
   position: relative;
   font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
-  max-width: 100%;
-  height: 100%;
+  width: 100vw;
+}
+
+#wrap {
+  margin-left: 5rem;
 }
 
 /* ------------- Index ---------------- */
@@ -14,7 +17,7 @@ html {
 /* --- HEADER --- */
 .logo {
 float: left;
-padding: 2em 0 0 3em;
+padding: 2em 0 0 0;
 }
 
 a {
@@ -36,10 +39,11 @@ li {
 }
 
 
-/* --- MAIN --- */
+/* ------------- MAIN ---------------- */
+
 .main-img {
-  margin: 2em 3em;
-  height: 50rem;
+  margin: 2em 0;
+  height: 40rem;
   background-image: url(../images/city.jpg);
   text-align: center;
 }
@@ -48,6 +52,35 @@ li {
   margin-top: 3rem;
   display: inline-block;
 }
+
+/* --- Section About Us --- */
+.company {
+  display: inline-flex;
+}
+.about {
+  width: 47.5vw;
+  margin-left: 3rem;
+}
+
+.about ul {
+  display: block;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+}
+
+.about li {
+  display: block;
+  padding: 0;
+}
+
+.about-img img {
+  width: 40vw;
+  height: 45vh;
+  display: inline;
+  /* border-radius: 10px; */
+  filter: grayscale();
+}
+
 
 
 /* --- FOOTER --- */
