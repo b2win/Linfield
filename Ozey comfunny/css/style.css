@@ -48,3 +48,24 @@ li {
   margin-top: 3rem;
   display: inline-block;
 }
+
+
+/* --- FOOTER --- */
+footer {
+  text-align: center;
+}
+
+footer img {
+  height: 60px;
+}
+
+hr {
+  border: 1px solid grey;
+}
+
+.footer-icon {
+  width: 40vw;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font: bolder;
+}
