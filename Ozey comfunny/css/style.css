@@ -34,3 +34,17 @@ li {
   display: inline-block;
   padding: 3em 3em 0 3em;
 }
+
+
+/* --- MAIN --- */
+.main-img {
+  margin: 2em 3em;
+  height: 50rem;
+  background-image: url(../images/city.jpg);
+  text-align: center;
+}
+
+.main-img h1 {
+  margin-top: 3rem;
+  display: inline-block;
+}
