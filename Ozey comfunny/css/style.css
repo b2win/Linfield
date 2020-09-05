@@ -71,6 +71,14 @@ li {
   font-size: 1.5rem;
 }
 
+.read {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border: 2px solid grey;
+  border-radius: 7px;
+}
+
 .about-img img {
   width: 40vw;
   height: 45vh;
