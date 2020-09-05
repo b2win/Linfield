@@ -60,17 +60,15 @@ li {
 .about {
   width: 47.5vw;
   margin-left: 3rem;
-}
-
-.about ul {
-  display: block;
-  font-size: 1.5rem;
   padding-top: 5rem;
 }
 
-.about li {
-  display: block;
-  padding: 0;
+.about h2 {
+  font-size: 2.5rem;
+}
+
+.about p {
+  font-size: 1.5rem;
 }
 
 .about-img img {
@@ -81,6 +79,35 @@ li {
   filter: grayscale();
 }
 
+/* --- Section Our Services --- */
+.service {
+  width: 90vw;
+}
+.our {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.our h2 {
+  font-size: 2.5rem;
+}
+
+.our h3 {
+  font-size: 1.5rem;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service-img {
+  height: 50px;
+}
+
+.grid p {
+  font-size: 1.5rem;
+}
 
 
 /* --- FOOTER --- */
