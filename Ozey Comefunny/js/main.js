@@ -19,6 +19,7 @@ window.mouseover = function(event) {
 }
 
 
+// 이미지 버튼 클릭 넘기기
 var slides = document.querySelectorAll(".main-img > img");
 var prev = document.querySelector("#prev");
 var next = document.querySelector("#next");
@@ -49,3 +50,19 @@ function nextSlide() {
 showSlide(current);
 prev.onclick = prevSlide;
 next.onclick = nextSlide;
+
+
+// 이미지 자동 변환
+var imgArray=new Array(); 
+imgArray[0]="../images/city.jpg"; 
+imgArray[1]="../images/sydney.jpg"; 
+imgArray[2]="../images/ship.jpg"; 
+imgArray[3]="../images/street.jpg"; 
+
+function showImage(){ 
+  var imgNum=Math.round(Math.random()*3); 
+  var objImg=document.getElementById("introimg"); 
+  objImg.src=imgArray[imgNum];
+  setTimeout(showImage,3000); 
+}
+
