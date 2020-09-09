@@ -86,29 +86,71 @@ li {
 
 
 /* ------------- MAIN ---------------- */
+.wrapper {
+  margin: 2rem auto;
+  display: block;
+  text-align: center;
+  position: relative;
+}
 
 .main-img {
-  margin: 2rem auto;
+  margin: 0 auto;
   height: 40rem;
-  background-image: url(../images/city.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  display: inline-flex;
 }
 
 .main-img h1 {
-  display: block;
   text-align: center;
   padding-top: 2rem;
+  position: absolute;
+  width: 100vw;
 }
 
 .main-img h2 {
-  display: block;
   text-align: center;
+  position: absolute;
+  width: 100vw;
+  padding-top: 5rem;
 }
+
+button {
+	position:absolute; 
+	height:100%; 
+	top:0; 
+	border:none; 
+	padding:20px; 
+	background-color:transparent;
+	color:#000;
+	font-weight:800;
+	font-size:24px; 
+	opacity:0.5;   
+}
+#prev {
+  left:0;
+  height: 40rem;
+}
+#next {
+  right:0;
+  height: 40rem;
+}
+button:hover {   
+	background-color:#222; 
+	color:#fff;  
+	opacity:0.6; 
+	cursor:pointer;  
+}
+button:focus { 
+	outline:0;  
+}
+
+
 
 /* --- Section About Us --- */
 .company {
   display: inline-flex;
+  position: relative;
 }
 .about {
   width: 47.5vw;
