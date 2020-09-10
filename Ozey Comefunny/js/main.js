@@ -54,10 +54,10 @@ next.onclick = nextSlide;
 
 // 이미지 자동 변환
 var imgArray=new Array(); 
-imgArray[0]="../images/city.jpg"; 
-imgArray[1]="../images/sydney.jpg"; 
-imgArray[2]="../images/ship.jpg"; 
-imgArray[3]="../images/street.jpg"; 
+imgArray[0]="images/city.jpg"; 
+imgArray[1]="images/sydney.jpg"; 
+imgArray[2]="images/ship.jpg"; 
+imgArray[3]="images/street.jpg"; 
 
 function showImage(){ 
   var imgNum=Math.round(Math.random()*3); 
