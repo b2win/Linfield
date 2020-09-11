@@ -223,29 +223,59 @@ button:focus {
 .about-pg {
   height: 30vh;
   background-image: url(../images/about-us.jpg);
+  max-width: 100vw;
   position: no-repeat;
-  /* text-align: center; */
   position: relative;
+  font-size: 2rem;
+  margin: 2rem auto;
 }
 
 .about-pg h1 {
   color: #fff;
-  display: inline-flex;
+  text-align: center;
+}
+
+.comefunny {
+  height: 30vh;
+  margin: 2rem auto;
 }
 
 .ability {
   height: 30vh;
+  max-width: 100vw;
   background-image: url(../images/ability.jpg);
   position: no-repeat;
+  font-size: 1.5rem;
 }
 
-.ability h2 {
+.ability h2, .ability h3 {
   color: #fff;
-  display: inline-flex;
+  /* font-size: 2rem; */
 }
 
+.team {
+  height: 29vh;
+  margin: 2rem auto;
+  background-image: url(../images/member.jpg);
+  filter: grayscale();
+  font-size: 2rem;
+}
 
+.needus {
+  height: 30vh;
+  margin: 2rem auto;
+}
 
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 30vh;
+  margin: 2rem auto;
+}
+
+.skill-img {
+  height: 50px;
+}
 
 
 
