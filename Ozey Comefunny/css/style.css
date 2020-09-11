@@ -17,7 +17,11 @@ header {
   display: inline;
 }
 
-/* ------------- Index ---------------- */
+body {
+  margin: 0;
+}
+
+/* -------------------------------- INDEX ------------------------------------- */
 
 /* --- HEADER --- */
 .logo {
@@ -87,8 +91,7 @@ li {
 
 
 
-/* ------------- MAIN ---------------- */
-
+/* -------------------------------- MAIN ------------------------------------- */
 .wrapper {
   margin: 2rem auto;
   display: block;
@@ -135,12 +138,11 @@ button {
 	opacity:0.5;   
 }
 #prev {
-  left:0;
   height: 40rem;
 }
 #next {
-  right:0;
   height: 40rem;
+  right: 0;
 }
 button:hover {   
 	background-color:#222; 
@@ -151,8 +153,6 @@ button:hover {
 button:focus { 
 	outline:0;  
 }
-
-
 
 
 
@@ -218,7 +218,51 @@ button:focus {
 }
 
 
-/* --- FOOTER --- */
+/* -------------------------------- ABOUT US PAGE -------------------------------- */
+
+.about-pg {
+  height: 30vh;
+  background-image: url(../images/about-us.jpg);
+  position: no-repeat;
+  /* text-align: center; */
+  position: relative;
+}
+
+.about-pg h1 {
+  color: #fff;
+  display: inline-flex;
+}
+
+.ability {
+  height: 30vh;
+  background-image: url(../images/ability.jpg);
+  position: no-repeat;
+}
+
+.ability h2 {
+  color: #fff;
+  display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------- FOOTER ------------------------------------- */
 footer {
   text-align: center;
 }
@@ -237,3 +281,9 @@ hr {
   justify-content: space-evenly;
   font: bolder;
 }
+
+
+
+
+
+
