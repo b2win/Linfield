@@ -277,6 +277,34 @@ button:focus {
   height: 50px;
 }
 
+.services {
+  height: 30vh;
+  background-image: url(../images/service.jpg);
+  max-width: 100vw;
+  position: no-repeat;
+  position: relative;
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+
+.services h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.description {
+  display: inline-flex;
+  margin: 5rem auto;
+}
+
+.program {
+  height: 50vh;
+}
+
+.our {
+  display: inline;
+}
+
 
 
 
