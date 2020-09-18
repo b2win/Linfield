@@ -228,6 +228,7 @@ button:focus {
   position: relative;
   font-size: 2rem;
   margin: 2rem auto;
+  filter: grayscale();
 }
 
 .about-pg h1 {
@@ -285,6 +286,7 @@ button:focus {
   position: relative;
   font-size: 2rem;
   margin: 2rem auto;
+  filter: grayscale();
 }
 
 .services h1 {
@@ -305,8 +307,58 @@ button:focus {
   display: inline;
 }
 
+.our h3 {
+  width: 40vw;
+}
 
+.portfolio {
+  height: 30vh;
+  background-image: url(../images/office.jpg);
+  max-width: 100vw;
+  position: no-repeat;
+  position: relative;
+  font-size: 2rem;
+  margin: 2rem auto;
+  filter: grayscale();
+}
 
+.portfolio-img img {
+  width: 25vw;
+  border: cadetblue solid 3px;
+  border-radius: 5%;
+}
+
+.blog {
+  height: 30vh;
+  background-image: url(../images/blog.jpg);
+  max-width: 100vw;
+  position: no-repeat;
+  position: relative;
+  font-size: 2rem;
+  margin: 2rem auto;
+  filter: grayscale();
+}
+
+.blog-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.blog-article1 {
+  margin: 2rem 0;
+  margin-right: -30rem;
+}
+
+.blog-article2 {
+  margin: 2rem 0;
+  margin-left: -30rem;
+}
+
+.blog-img img {
+width: 25vw;
+border: cadetblue solid 3px;
+border-radius: 5%;
+}
 
 
 
