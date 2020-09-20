@@ -361,6 +361,17 @@ border-radius: 5%;
 }
 
 
+.contact {
+  height: 30vh;
+  background-image: url(../images/contact-us.png);
+  max-width: 100vw;
+  position: no-repeat;
+  position: relative;
+  font-size: 2rem;
+  margin: 2rem auto;
+  filter: grayscale();
+}
+
 
 
 
