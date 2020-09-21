@@ -364,6 +364,8 @@ border-radius: 5%;
 .contact {
   height: 30vh;
   background-image: url(../images/contact-us.png);
+  background-size: 60%;
+  background-position: center;
   max-width: 100vw;
   position: no-repeat;
   position: relative;
@@ -372,6 +374,37 @@ border-radius: 5%;
   filter: grayscale();
 }
 
+.message {
+  width: 40vw;
+
+}
+
+.message ul li {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.message ul li {
+  width: 100%;
+  height: 40px;
+  border: solid 1px black;
+}
+
+.message ul li {
+  width: 100%;
+  height: 200px;
+  border: solid 1px black;
+  background: cadetblue;
+}
+
+.message ul li input, .message ul li textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.address {
+  width: 40vw;
+}
 
 
 
