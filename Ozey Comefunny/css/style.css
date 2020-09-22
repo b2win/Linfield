@@ -376,23 +376,22 @@ border-radius: 5%;
 
 .message {
   width: 40vw;
-
-}
-
-.message ul li {
-  margin-bottom: 15px;
   position: relative;
 }
 
 .message ul li {
-  width: 100%;
-  height: 40px;
-  border: solid 1px black;
+  margin-bottom: 15px;
 }
 
 .message ul li {
   width: 100%;
-  height: 200px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 800px;
   border: solid 1px black;
   background: cadetblue;
 }
@@ -401,6 +400,12 @@ border-radius: 5%;
   width: 100%;
   height: 100%;
 }
+
+.name {
+  height: 10px;
+  color: #388e3c;
+}
+
 
 .address {
   width: 40vw;
