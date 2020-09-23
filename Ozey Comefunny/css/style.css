@@ -377,6 +377,7 @@ border-radius: 5%;
 .message {
   width: 40vw;
   position: relative;
+  display: inline-flex;
 }
 
 .message ul li {
@@ -406,9 +407,16 @@ textarea {
   color: #388e3c;
 }
 
+.btn {
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
 
 .address {
   width: 40vw;
+  float: right;
+  display: inline;
 }
 
 
