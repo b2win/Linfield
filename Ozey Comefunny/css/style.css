@@ -408,7 +408,8 @@ textarea {
 }
 
 .btn {
-  border: solid black 1px;
+  border: solid black 3px;
+  padding: 5px 15px;
   border-radius: 5px;
 }
 
