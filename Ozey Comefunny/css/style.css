@@ -6,6 +6,7 @@ html {
   position: relative;
   font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
   text-align: center;
+  width: 2100px;
 }
 
 #wrap {
@@ -160,9 +161,10 @@ button:focus {
 .company {
   display: inline-flex;
   position: relative;
+  margin-top: 5rem;
 }
 .about {
-  width: 47.5vw;
+  width: 100%;
   padding-top: 5rem;
 }
 
@@ -183,14 +185,17 @@ button:focus {
 }
 
 .about-img img {
-  width: 40vw;
-  height: 45vh;
+  width: 60%;
+  height: 90%;
   display: inline;
-  /* border-radius: 10px; */
   filter: grayscale();
 }
 
 /* --- Section Our Services --- */
+.service {
+  text-align: center;
+}
+
 .our {
   text-align: center;
   margin: 2rem 0;
@@ -202,6 +207,7 @@ button:focus {
 
 .our h3 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .service-list {
@@ -221,7 +227,7 @@ button:focus {
 /* -------------------------------- ABOUT US PAGE -------------------------------- */
 
 .about-pg {
-  height: 30vh;
+  height: 250px;
   background-image: url(../images/about-us.jpg);
   max-width: 100vw;
   position: no-repeat;
@@ -279,7 +285,7 @@ button:focus {
 }
 
 .services {
-  height: 30vh;
+  height: 250px;
   background-image: url(../images/service.jpg);
   max-width: 100vw;
   position: no-repeat;
@@ -300,19 +306,28 @@ button:focus {
 }
 
 .program {
-  height: 50vh;
+  height: 400px;
+  justify-content: center;
+  width: 30%;
+  margin-left: 20%;
 }
 
-.our {
+.service-info {
   display: inline;
+  width: 50%;
 }
 
-.our h3 {
-  width: 40vw;
+.service-info h2 {
+  font-size: 3rem;
+}
+
+.service-info h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .portfolio {
-  height: 30vh;
+  height: 250px;
   background-image: url(../images/office.jpg);
   max-width: 100vw;
   position: no-repeat;
@@ -323,13 +338,13 @@ button:focus {
 }
 
 .portfolio-img img {
-  width: 25vw;
+  width: 25%;
   border: cadetblue solid 3px;
   border-radius: 5%;
 }
 
 .blog {
-  height: 30vh;
+  height: 250px;
   background-image: url(../images/blog.jpg);
   max-width: 100vw;
   position: no-repeat;
@@ -342,6 +357,7 @@ button:focus {
 .blog-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
 }
 
 .blog-article1 {
@@ -355,14 +371,14 @@ button:focus {
 }
 
 .blog-img img {
-width: 25vw;
+width: 25%;
 border: cadetblue solid 3px;
 border-radius: 5%;
 }
 
 
 .contact {
-  height: 30vh;
+  height: 250px;
   background-image: url(../images/contact-us.png);
   background-size: 60%;
   background-position: center;
