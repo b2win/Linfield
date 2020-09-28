@@ -382,7 +382,7 @@ border-radius: 5%;
   background-image: url(../images/contact-us.png);
   background-size: 60%;
   background-position: center;
-  max-width: 100vw;
+  max-width: 100%;
   position: no-repeat;
   position: relative;
   font-size: 2rem;
@@ -391,7 +391,7 @@ border-radius: 5%;
 }
 
 .message {
-  width: 40vw;
+  width: 40%;
   position: relative;
   display: inline-flex;
 }
@@ -408,12 +408,11 @@ border-radius: 5%;
 
 textarea {
   width: 100%;
-  height: 800px;
+  height: 200px;
   border: solid 1px black;
-  background: cadetblue;
 }
 
-.message ul li input, .message ul li textarea {
+.message ul li input {
   width: 100%;
   height: 100%;
 }
@@ -431,7 +430,7 @@ textarea {
 
 
 .address {
-  width: 40vw;
+  width: 40%;
   float: right;
   display: inline;
   padding-top: 7rem;
