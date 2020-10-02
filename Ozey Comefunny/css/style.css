@@ -435,6 +435,14 @@ textarea {
   padding-top: 7rem;
 }
 
+.address img {
+}
+
+.address h4 {
+  display: inline;
+  padding-left: 5rem;
+}
+
 .map {
   margin-top: 3rem;
 }
