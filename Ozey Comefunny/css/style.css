@@ -44,7 +44,7 @@ a {
 
 .header-list {
   font-family: "black han sans", serif;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   list-style: none;
   width: 100%;
   max-width: 100%;
@@ -53,12 +53,17 @@ a {
 
 li {
   display: inline-block;
-  margin: 3rem 3rem 0 3rem;
-  justify-content: space-between;
+  margin: 3rem 2.5rem 0 2.5rem;
+  justify-content: space-evenly;
 }
 
 .login {
-  display: inline;
+  display: inline-flex;
+  float: right;
+  font-size: 1.25rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  font-weight: 900;
 }
 
 /* --- DROP MENU-------------------------------------------------------------- */
@@ -67,7 +72,7 @@ li {
   font-family: "black han sans", serif;
   color: white;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* The container <div> - needed to position the dropdown content */
