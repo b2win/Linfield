@@ -65,4 +65,3 @@ function showImage(){
   objImg.src=imgArray[imgNum];
   setTimeout(showImage,3000); 
 }
-
