@@ -65,3 +65,41 @@ function showImage(){
   objImg.src=imgArray[imgNum];
   setTimeout(showImage,3000); 
 }
+
+
+
+// 로그인
+var userId = document.querySelector("#id");
+var pw = document.querySelector("#password");
+var jeremy = "b2win";
+var answer = "gooddeveloper";
+var login = document.querySelector("#detail");
+
+
+// function checkPw() {
+//   if(pw.value.length < 8) {
+//     alert("비밀번호는 8자리 이상이어야 합니다.");
+//     pw.value = "";
+//     pw.focus();
+//   }
+// }
+
+
+login.addEventListener("click", function() {
+  if(userId.value != jeremy) {
+    alert("존재하지 않는 아이디입니다. 다시 입력해주세요.")
+    userId.value = "";
+    userId.focus();
+  }
+  if(pw.value != answer) {
+    alert("비밀번호가 다릅니다. 다시 입력해주세요.")
+    pw.value = "";
+    pw.focus();
+    } else {
+      alert("로그인 성공");
+    }
+});
+
+//아이디가 틀릴경우 비밀번호도 틀리다고 알럿 뜨는 현상 수정하기
+
+
