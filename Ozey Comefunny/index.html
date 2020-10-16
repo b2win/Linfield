@@ -17,7 +17,6 @@
   <div id="wrap">
     <!--   HEADER   -->
   <header>
-    <!-- <span class="login"><a href="login.html" onClick="window.open(this.href, '', 'width=500px, height=240px'); return false;">LOG IN</a></span> -->
     <span class="login">
       <button onclick="document.getElementById('id01').style.display='block'"><a>Login</a></button>
     </span>
@@ -28,14 +27,14 @@
       
       <div id="login-modal">
         <!-- Modal Content -->
-        <form class="modal-content animate" action="/action_page.php">
+        <form class="modal-content animate" action="" onsubmit="return false">
           <div class="container">
             <h1>로그인 페이지</h1><br>
             <label for="uname"><b>아이디</b></label>
-            <input type="text" placeholder="Enter Username" id="id" name="uname" required><br>
+            <input id="id" type="text" placeholder="Enter Username" name="uname" required><br>
       
             <label for="psw"><b>비밀번호</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required><br>
+            <input id="password" type="password" placeholder="Enter Password" name="psw" required><br>
             <label>
               <input type="checkbox" checked="checked" name="remember"> Remember me
             </label><br>
@@ -50,7 +49,6 @@
         </form>
       </div>
     </div>
-        <!-- Header Menu -->
     <ul class="header-list">
       <span class="logo"><a href="index.html"><img src="images/ozey-logo.jpg"></a></span>
       <li><a href="index.html">HOME</a></li>

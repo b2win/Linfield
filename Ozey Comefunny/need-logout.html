@@ -11,14 +11,15 @@
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">  
-  <title>Ozey Comefunny - Contact Us</title>
+  <title>Ozey Comefunny - Our Services</title>
 </head>
 <body>
   <div id="wrap">
     <!--   HEADER   -->
     <header>
       <span class="login">
-        <button onclick="document.getElementById('id01').style.display='block'"><a>Login</a></button>
+        <p class="welcome">b2win님 환영합니다!</p>
+        <button onclick="document.getElementById('id01').style.display='block'"><a href="index.html">Logout</a></button>
       </span>
       
       <div id="id01" class="modal">
@@ -31,10 +32,10 @@
             <div class="container">
               <h1>로그인 페이지</h1><br>
               <label for="uname"><b>아이디</b></label>
-              <input type="text" placeholder="Enter Username" id="id" name="uname" required><br>
+              <input id="id" type="text" placeholder="Enter Username" name="uname" required><br>
         
               <label for="psw"><b>비밀번호</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required><br>
+              <input id="password" type="password" placeholder="Enter Password" name="psw" required><br>
               <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label><br>
@@ -49,64 +50,46 @@
           </form>
         </div>
       </div>
-          <!-- Header Menu -->
       <ul class="header-list">
-        <span class="logo"><a href="index.html"><img src="images/ozey-logo.jpg"></a></span>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
+        <span class="logo"><a href="index-logout.html"><img src="images/ozey-logo.jpg"></a></span>
+        <li><a href="index-logout.html">HOME</a></li>
+        <li><a href="about-logout.html">ABOUT US</a></li>
         <div class="dropdown">
-          <li class="drop"><a href="program.html">OUR SERVICES</a></li>
+          <li class="drop"><a href="program-logout.html">OUR SERVICES</a></li>
           <div class="dropdown-content">
-            <a href="program.html">Create Program</a>
-            <a href="lms.html">LMS</a>
-            <a href="want.html">Do Whatever You Want</a>
-            <a href="need.html">Make Whatever You Need</a>
+            <a href="program-logout.html">Create Program</a>
+            <a href="lms-logout.html">LMS</a>
+            <a href="want-logout.html">Do Whatever You Want</a>
+            <a href="need-logout.html">Make Whatever You Need</a>
           </div>
         </div>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="portfolio-logout.html">PORTFOLIO</a></li>
+        <li><a href="blog-logout.html">BLOG</a></li>
+        <li><a href="contact-logout.html">CONTACT US</a></li>
       </ul>
     </div>
     </header><!--   /HEADER   -->
-    
+      
 <!-----   MAIN   ----->
 
 <!--   HEAD IMAGE   -->
 <div class="main">
-  <div class="contact">
+  <div class="services">
     <br>
+    <h1>Our Services</h1>
   </div>
-  <h2>SEND A MESSAGE</h2>
-  <h3>GET IN TOUCH</h3>
-    <div class="message">
-      <ul>
-        <li>
-          <input class="name" type="text" name="name" required placeholder="이름을 입력해 주세요" />
-        </li>
-        <li>
-          <input class="mobile" type="text" name="mobile" required placeholder="전화번호만 입력해 주세요" />
-        </li>
-        <li>
-          <input class="email" type="email" name="email" required placeholder="sample@mail.com" />
-        </li>
-        <li>
-          <textarea placeholder="궁금한 사항을 작성해 주세요" required></textarea>
-        </li>
-          <input class="btn" type="submit" value="SEND">
-    </ul>
+  <div class="description">
+    <img class="program" src="images/blank.png">
+    <div class="service-info">
+      <h2>Make Whatever You Need</h2><br>
+      <h3>Just tell me what you need. We will make you anything such as hacking system.<br>
+        We know it is illegal, but we are telling you again, we don’t give a shit.<br>
+        뭐든 만들수만 있다면 다만들꺼다.<br>
+        법 따위 개무시 돈이 더 필요함.<br></h3>
     </div>
-    <div class="address">
-      <h3>ADDRESS</h3><br>
-      <img src="images/footer-icon1.png"><h4>서울특별시 할일없구 로또로 대박나길 12 빈곤층 204호</h4><br>
-      <img src="images/footer-icon2.png"><h4>010-1234-5678</h4><br>
-      <img src="images/footer-icon3.png"><h4>eto@ozey.com</h4><br>
-    </div>
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.6181117121732!2d126.98761431558842!3d37.56406023202716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f33441f3c9%3A0x9ab50769ac028212!2zKOyjvCnrhbjrnpHtko3shKA!5e0!3m2!1sko!2skr!4v1595043528617!5m2!1sko!2skr" width="1600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+  </div>
 </div>
-  <br>
+
   <hr>
   <footer>
     <h2>We do everything.</h2>
