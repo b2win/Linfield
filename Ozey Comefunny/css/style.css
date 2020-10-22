@@ -479,7 +479,8 @@ img {
 }
 
 .portfolio-img img {
-  width: 25%;
+  width: 375px;
+  height: 375px;
   border: cadetblue solid 3px;
   border-radius: 5%;
 }
