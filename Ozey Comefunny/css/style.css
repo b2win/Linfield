@@ -339,7 +339,7 @@ header {
 .about {
   max-width: 100%;
   padding-top: 2rem;
-  background-image: url(../images/about.jpg);
+  background-image: url(../images/about.JPG);
   background-size: 50rem;
   filter: grayscale();
 }
