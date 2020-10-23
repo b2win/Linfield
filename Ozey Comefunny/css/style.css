@@ -1771,14 +1771,20 @@ border-radius: 5%;
   position: no-repeat;
   position: relative;
   font-size: 2rem;
-  margin: 2rem auto;
+  margin: 0 auto;
   filter: grayscale();
 }
 
 .message {
-  width: 40%;
+  width: 50%;
   position: relative;
   display: inline-flex;
+}
+
+.question {
+  display: flex;
+  margin-left: 25rem;
+  margin-top: 5rem;
 }
 
 .message ul li {
@@ -1791,10 +1797,16 @@ border-radius: 5%;
   border-radius: 5px;
 }
 
+.message ul {
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
 textarea {
   width: 100%;
   height: 200px;
-  border: solid 1px black;
+  border: none;
 }
 
 .message ul li input {
@@ -1804,25 +1816,43 @@ textarea {
 
 .name {
   height: 10px;
-  color: #388e3c;
 }
 
 .btn {
-  border: solid black 3px;
+  border: solid black 2px;
   padding: 5px 15px;
   border-radius: 5px;
 }
 
 .address {
-  width: 40%;
+  width: 50%;
   float: right;
   display: inline;
-  padding-top: 7rem;
+  padding: 0;
+  margin-top: -1.7rem;
+}
+
+.address img {
+  margin-top: 2rem;
+  height: 30px;
 }
 
 .address h4 {
   display: inline;
-  padding-left: 5rem;
+  padding: 0;
+  margin-left: 3rem;
+}
+
+.add {
+  text-align: left;
+}
+
+.phone {
+  margin-right: 18rem;
+}
+
+.mail {
+  margin-right: 18rem;
 }
 
 .map {
