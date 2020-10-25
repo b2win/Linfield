@@ -9,7 +9,7 @@ var oct = new Blog('url(../images/blank.png)', '19/Oct/2020', '이미지에 대�
 var sep = new Blog('url(../images/blank.png)', '07/Sep/2020', '회사의 발전을 위해 사람들은 우리가 열심히...', '가나다라마바사');
 var aug = new Blog('url(../images/blank.png)', '03/Aug/2020', '회사 창립하고 첫 출근은 마시자 마시자 술이...', '가나다라마바사');
 var jul = new Blog('url(../images/blank.png)', '01/Jul/2020', '회사 창립!! 드디어 친구들과 머리를 모아 회사...', '가나다라마바사');
-var url = '"../images/blank.png"';
+var url = '"https://b2win.github.io/Linfield/Ozey%20Comefunny/images/blank.png"';
 
 var blogList = [oct, sep, aug, jul];
 
