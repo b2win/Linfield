@@ -42,7 +42,6 @@ a {
 /* 모바일용 CSS */
 @media all and (max-width:767px){
 /* -------------------------------- INDEX ------------------------------------- */
-
 /* --- HEADER --- */
 
 header {
@@ -247,8 +246,6 @@ header {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-
-
 /* -------------------------------- MAIN ------------------------------------- */
 .main {
   max-width: 100%;
@@ -330,7 +327,6 @@ header {
 #prev:focus, #next:focus { 
 	outline:0;  
 }
-
 
 /* --- Section About Us --- */
 .company {
@@ -418,9 +414,7 @@ header {
   font-size: 1.2rem;
 }
 
-
 /* -------------------------------- ABOUT US PAGE -------------------------------- */
-
 .about-pg {
   height: 250px;
   background-image: url(../images/about-us.jpg);
@@ -659,16 +653,10 @@ hr {
 }
 
 
-
-
-
-
 /* 태블릿용 CSS */
 @media all and (min-width:768px){
 /* -------------------------------- INDEX ------------------------------------- */
 /* --- HEADER --- */
-
-
 a {
   text-decoration: none;
   color: #388e3c;
@@ -699,7 +687,6 @@ a {
   padding-top: 1rem;
   font-weight: 900;
 }
-
 
 /* -------------------------------- 모달창 ------------------------------------- */
 /* The Modal (background) */
@@ -923,7 +910,6 @@ a {
 	outline:0;
 }
 
-
 /* --- Section About Us --- */
 .company {
   display: inline-flex;
@@ -999,9 +985,7 @@ a {
   font-size: 1.2rem;
 }
 
-
 /* -------------------------------- ABOUT US PAGE -------------------------------- */
-
 .about-pg {
   height: 250px;
   background-image: url(../images/about-us.jpg);
@@ -1240,14 +1224,8 @@ hr {
 }
 
 
-
-
-
-
-
 /* PC용 CSS */
 @media all and (min-width:1024px){
-
 /* -------------------------------- INDEX ------------------------------------- */
 /* --- HEADER --- */
 .logo {
@@ -1284,7 +1262,6 @@ a {
   padding-top: 1rem;
   font-weight: 900;
 }
-
 
 /* -------------------------------- 모달창 ------------------------------------- */
 /* The Modal (background) */
@@ -1431,7 +1408,6 @@ a {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
 
 /* -------------------------------- MAIN ------------------------------------- */
 .wrapper {
@@ -1590,7 +1566,6 @@ img {
 
 
 /* -------------------------------- ABOUT US PAGE -------------------------------- */
-
 .about-pg {
   height: 250px;
   background-image: url(../images/about-us.jpg);
